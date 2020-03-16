@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "tos",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.fanbox.dev"
+    }
+  ],
+  "paths": {
+    "/api/pages/terms-of-services": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-api-pages-terms-of-services"
+      }
+    }
+  }
+}
